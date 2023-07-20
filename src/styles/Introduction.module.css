@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+.IntroductionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  width: fit-content;
+  background-color: #93a1a4;
+}
+.GridContainer {
+  width: 93vw;
+}
+
+.Introduction {
+  color: #e9e7ce;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-right: 0;
+}
+
+.Role {
+  font-size: 5rem;
+}
+
+.Location {
+  font-size: 3rem;
+}
+
+/* Media Query for larger screens (min-width: 768px) */
+@media screen and (min-width: 768px) {
+  .IntroductionContainer {
+    margin: auto;
+  }
+
+  .Introduction {
+    padding: 0;
+    font-size: 12vw;
+    margin: 0;
+  }
+
+  .GridContainer {
+    width: 75vw;
+    margin: auto;
+  }
+
+  .Location {
+    font-size: 5vw;
+    margin: 2% 0 0 5%;
+    padding: 0;
+    letter-spacing: 0.25rem;
+  }
+
+  .LocationContainer {
+    position: relative;
+    left: 53%;
+    bottom: 34%;
+    background-color: transparent;
+  }
+}
